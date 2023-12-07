@@ -1,0 +1,12 @@
+
+
+prometherus and grafan
+https://github.com/docker/awesome-compose/blob/master/prometheus-grafana/compose.yaml
+
+
+Docker compose file for agent prometherus
+https://gist.github.com/brunosimioni/2bcbb91edd4fbaeb8cccbbf490c5685c
+
+#command to send data to gateway
+echo "some_metric 3.14" | curl --data-binary @- http://localhost:9091/metrics/job/some_job
+
